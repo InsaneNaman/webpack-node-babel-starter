@@ -1,0 +1,28 @@
+{
+  "name": "webpack-node-babel-starter",
+  "version": "1.0.0",
+  "description": "This repo can be used as a boilerplate for any project targeting Node.js environment.",
+  "main": "index.js",
+  "repository": "",
+  "author": "Naman Gupta",
+  "license": "MIT",
+  "scripts": {
+    "nodemon":"nodemon ./dist/main.js",
+    "dev": "webpack --mode development",
+    "prod": "webpack --mode production",
+    "start":"yarn run dev && yarn run nodemon"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.44",
+    "@babel/node": "^7.0.0-beta.44",
+    "@babel/preset-env": "^7.0.0-beta.44",
+    "babel-loader": "^8.0.0-beta",
+    "nodemon": "^1.17.3",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14",
+    "webpack-dev-server": "^3.1.3"
+  },
+  "dependencies": {
+    "restify": "^7.1.0"
+  }
+}
