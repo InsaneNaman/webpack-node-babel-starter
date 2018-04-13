@@ -2931,7 +2931,7 @@ eval("module.exports = Yallist\n\nYallist.Node = Node\nYallist.create = Yallist\
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar _restify = _interopRequireDefault(__webpack_require__(/*! restify */ \"./node_modules/restify/lib/index.js\"));\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n/*function naman() {\n  setTimeout(() => {\n    console.log(\"Naman\");\n  }, 5000);\n}\n\nnaman();\n*/\nvar server = _restify.default.createServer();\n\nserver.get('/', function (req, res) {\n  res.send('Hello World');\n});\nserver.listen(8080, function () {\n  console.log(\"\".concat(server.name, \" is working at \").concat(server.url));\n});\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("\n\nvar _restify = _interopRequireDefault(__webpack_require__(/*! restify */ \"./node_modules/restify/lib/index.js\"));\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar server = _restify.default.createServer();\n\nserver.get('/', function (req, res) {\n  res.send('Hello World');\n});\nserver.listen(8080, function () {\n  console.log(\"\".concat(server.name, \" is working at \").concat(server.url));\n});\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 

@@ -1,12 +1,3 @@
-/*function naman() {
-  setTimeout(() => {
-    console.log("Naman");
-  }, 5000);
-}
-
-naman();
-*/
-
 import restify from 'restify';
 const server = restify.createServer();
 
