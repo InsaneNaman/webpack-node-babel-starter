@@ -7,9 +7,9 @@
   "author": "Naman Gupta",
   "license": "MIT",
   "scripts": {
-    "nodemon": "nodemon ./dist/main.js",
-    "dev": "webpack --mode development",
-    "prod": "webpack --mode production",
+    "nodemon": "nodemon ./public/dist/main.bundle.js",
+    "dev": "webpack --config webpack/webpack.config.dev.js",
+    "prod": "webpack --config webpack/webpack.config.prod.js",
     "start": "yarn run dev && yarn run nodemon"
   },
   "devDependencies": {
